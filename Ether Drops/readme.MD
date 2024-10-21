@@ -19,7 +19,7 @@ To get started with the bot, follow these steps:
 1. **Install Dependencies and Modules:**
 
    ```
-   npm i user-agents cloudscraper axios colors p-limit https-proxy-agent socks-proxy-agent
+   npm i user-agents cloudscraper axios colors p-limit https-proxy-agent socks-proxy-agent crypto ws
    ```
 
 2. **Prepare Configuration Files:**
@@ -32,6 +32,20 @@ To get started with the bot, follow these steps:
 
 ```json
 {
+  //for each pair fill the order and the coin you want, i have the `coins.js` file for manage all the coins, or you just set by default and dont touch anything
+
+  "pair1": {
+    "symbol": "BTC",
+    "Long-Short": "Long"
+  },
+  "pair2": {
+    "symbol": "BTC",
+    "Long-Short": "Short"
+  },
+  "pair3": {
+    "symbol": "BTC",
+    "Long-Short": "Long"
+  },
   "limit": 5, //number of accounts run in a row
   "countdown": 300, //time to restarts all the accounts - count by seconds
   "country_time": "vi-VN" //timestamp base on the country

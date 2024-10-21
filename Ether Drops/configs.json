@@ -1,5 +1,17 @@
 {
   "limit": 100,
   "countdown": 300,
-  "country_time": "en-US"
+  "country_time": "en-US",
+  "pair1": {
+    "symbol": "BTC",
+    "Long-Short": "Long"
+  },
+  "pair2": {
+    "symbol": "BTC",
+    "Long-Short": "Short"
+  },
+  "pair3": {
+    "symbol": "BTC",
+    "Long-Short": "Long"
+  }
 }
