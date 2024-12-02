@@ -2,6 +2,7 @@
   "limit": 100,
   "countdown": 300,
   "country_time": "en-US",
+  "delayEachAccount": [5, 8],
   "pair1": {
     "symbol": "BTC",
     "Long-Short": "Long"
