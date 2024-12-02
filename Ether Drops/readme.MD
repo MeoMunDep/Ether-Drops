@@ -12,6 +12,9 @@
 
 To get started with the bot, follow these steps:
 
+> Remember to download Nodejs version: **22.11.0** and NPM version: **10.9.0**
+
+
 0. **Dowload NodeJS to run the bot**
 
 -> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
@@ -34,6 +37,10 @@ To get started with the bot, follow these steps:
 {
   //for each pair fill the order and the coin you want, i have the `coins.js` file for manage all the coins, or you just set by default and dont touch anything
 
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "delayEachAccount": [5, 8],
   "pair1": {
     "symbol": "BTC",
     "Long-Short": "Long"
@@ -45,14 +52,12 @@ To get started with the bot, follow these steps:
   "pair3": {
     "symbol": "BTC",
     "Long-Short": "Long"
-  },
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  }
 }
+
 ```
 
-### 2. `datas.txt` 🗂️ -
+### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
 
 ```txt
 query_id.../user...
