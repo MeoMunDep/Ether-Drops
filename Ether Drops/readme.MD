@@ -34,9 +34,9 @@ To get started with the bot, follow these steps:
 ### 1. `configs.json` 📜 - Adjust configuration
 
 ```json
-{
-  //for each pair fill the order and the coin you want, i have the `coins.js` file for manage all the coins, or you just set by default and dont touch anything
 
+  //for each pair fill the order and the coin you want, i have the `coins.js` file for manage all the coins, or you just set by default and dont touch anything
+{
   "limit": 100,
   "countdown": 300,
   "country_time": "en-US",
@@ -52,8 +52,10 @@ To get started with the bot, follow these steps:
   "pair3": {
     "symbol": "BTC",
     "Long-Short": "Long"
-  }
+  },
+  "referralCode": "ACBRX"
 }
+
 
 ```
 
@@ -85,6 +87,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node 1`
+> To run the bot, use the following command: `cd eht-main/eth; node 1`
 
 🎇Enjoy!
