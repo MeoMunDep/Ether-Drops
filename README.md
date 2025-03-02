@@ -9,7 +9,7 @@
 - Group: [Link](t.me/KeoAirDropFreeNe)
 - Channel: [Link](t.me/KeoAirDropFreeNee)
 
-> > > Help me with your referral [Link](https://t.me/EtherDROPS7_bot?start=promo_6NAMZK)
+> > > Help me with your referral [Link](https://t.me/fomo/app?startapp=ref_ACBRX)
 
 ## 🚀 Getting Started
 
