@@ -1,6 +1,6 @@
 📞 Contact
 
-> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux)
 
 
 > If you encounter any issues or have questions, feel free to reach out:
@@ -32,7 +32,7 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 1. **Install Dependencies and Modules:**
 
    ```
-   npm i user-agents cloudscraper axios colors https-proxy-agent socks-proxy-agent 
+   npm i user-agents axios meo-forkcy-colors https-proxy-agent socks-proxy-agent 
    ```
 
 2. **Prepare Configuration Files:**
@@ -49,7 +49,6 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 {
   "limit": 100,
   "countdown": 300,
-  "country_time": "en-US",
   "delayEachAccount": [5, 8],
   "pair1": {
     "symbol": "BTC",
@@ -100,6 +99,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `cd "ether-drops-main/ether drops"; node meomundep`
+> To run the bot, use the following command: `cd "ether-drops"; node meomundep`
 
 🎇Enjoy!
